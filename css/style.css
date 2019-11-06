@@ -1,0 +1,173 @@
+body {
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+  background:#fbfbfb;
+}
+.card {
+  position: relative;;
+  top:0;
+  left: 50%;
+  transform: translateX(-50%);
+  width:300px;
+  min-height: 300px;
+  margin: 50px 0;
+  background:#fff;
+  box-shadow:0 20px 50px rgba(0,0,0,.1);
+  border-radius:10px;
+  transition:0.5s;
+}
+.card:hover {
+  box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+.card .box {
+  position:absolute;
+  top:50%;
+  left:0;
+  transform:translateY(-50%);
+  text-align:center;
+  padding:20px;
+  box-sizing:border-box;
+  width:100%;
+}
+.card .box .img {
+  width:120px;
+  height:120px;
+  margin:0 auto;
+  border-radius:50%;
+  overflow:hidden;
+  position: absolute;
+  top: -90px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.card .box .img img {
+  width:100%;
+  height:100%;
+}
+.card .box h2 {
+  font-size:24px;
+  color:#262626;
+  margin:20px auto;
+  font: 600 !important;
+}
+.card .box h2 span {
+  font-size:14px;
+  background:#e91e63;
+  color:#fff;
+  display:inline-block;
+  padding:4px 10px;
+  border-radius:15px;
+}
+.card .box p {
+  color:#262626;
+}
+.card .box span {
+  display:inline-flex;
+}
+.card .box ul {
+  margin:0;
+  padding:0;
+}
+.card .box ul li {
+  list-style:none;
+  float:left;
+}
+.card .box ul li a {
+  display:block;
+  color:#aaa;
+  margin:0 10px;
+  font-size:20px;
+  transition:0.5s;
+  text-align:center;
+}
+.card .box ul li:hover a {
+  color:#e91e63;
+  transform:rotateY(360deg);
+}
+
+
+/* Animation */
+/* #congrats {
+
+
+
+
+
+
+} */
+
+#random_name {
+	transform-origin: 50% 50%;
+ 
+	z-index: 2;
+  color: #17b317;
+ 
+	top: 0;
+	text-align: center;
+	width: 100%;
+	user-select: none;
+  -webkit-user-select: none;
+
+}
+
+.particle {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	bottom: 15%;
+	left: 45%;
+	z-index: 1;
+	font-size: 30px;
+	display: none;	
+}
+
+.star {
+	color: #ffcc00;
+}
+
+.blob {
+	background: #d5f2ff;
+	background: rgba(red(#ffcc00), green(#ffcc00), blue(#ffcc00), 0.25);
+	border-radius: 50%;
+	display: none;
+}
+
+
+
+.secret_name{
+  background: rgb(235, 235, 235);
+  border-radius:0.6em ;
+  padding: 15px 0;
+}
+.secret_name_text{
+  margin: 0;
+  color: rgb(118, 118, 118);
+}
+
+
+
+#generate,
+#next {
+  position: absolute;
+  bottom: -50px;
+  left: 40%;
+  font-size: 38px;
+  transform: translateX(-50%);
+}
+
+#rest{
+  position: absolute;
+  bottom: -140px;
+  left: 50%;  
+  transform: translateX(-50%);
+  margin-bottom: 50px;
+}
+
+
+
+#myList{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
